@@ -1,0 +1,110 @@
+field,display,display_when_empty,label
+id,FALSE,FALSE,id
+institutionCode,FALSE,FALSE,Institution Code
+collectionCode,FALSE,FALSE,Collection Code
+ownerInstitutionCode,FALSE,FALSE,Owner Institution Code
+basisOfRecord,TRUE,FALSE,Basis of Record
+occurrenceID,FALSE,FALSE,Occurrence ID
+catalogNumber,TRUE,TRUE,Catalog Number
+otherCatalogNumbers,TRUE,FALSE,Other Catalog Numbers
+higherClassification,FALSE,FALSE,Higher Classification
+kingdom,FALSE,FALSE,Kingdom
+phylum,FALSE,FALSE,Phylum
+class,FALSE,FALSE,Class
+order,FALSE,FALSE,Order
+family,FALSE,FALSE,Family
+scientificName,TRUE,TRUE,Scientific Name
+taxonID,FALSE,FALSE,Taxon ID
+scientificNameAuthorship,TRUE,FALSE,Scientific Name Authorship
+genus,FALSE,FALSE,Genus
+subgenus,FALSE,FALSE,Subgenus
+specificEpithet,FALSE,FALSE,Specific Epithet
+verbatimTaxonRank,FALSE,FALSE,Verbatim Taxon Rank
+infraspecificEpithet,FALSE,FALSE,Infraspecific Epithet
+cultivarEpithet,FALSE,FALSE,Cultivar Epithet
+tradeName,FALSE,FALSE,Trade Name
+taxonRank,TRUE,FALSE,Taxon Rank
+identifiedBy,TRUE,FALSE,Identified By
+dateIdentified,TRUE,FALSE,Date Identified
+identificationReferences,TRUE,FALSE,Identification References
+identificationRemarks,TRUE,FALSE,Identification Remarks
+taxonRemarks,TRUE,FALSE,Taxon Remarks
+identificationQualifier,TRUE,FALSE,Identification Qualifier
+typeStatus,TRUE,FALSE,Type Status
+recordedBy,TRUE,FALSE,Recorded By
+associatedCollectors,TRUE,FALSE,Associated Collectors
+recordNumber,TRUE,FALSE,Record Number
+eventDate,TRUE,FALSE,Event Date
+eventDate2,TRUE,FALSE,End Date
+eventtime,TRUE,FALSE,Event Time
+year,FALSE,FALSE,Year
+month,FALSE,FALSE,Month
+day,FALSE,FALSE,Day
+startDayOfYear,FALSE,FALSE,Start Day of Year
+endDayOfYear,FALSE,FALSE,End Day of Year
+verbatimEventDate,TRUE,FALSE,Verbatim Event Date
+occurrenceRemarks,TRUE,FALSE,Occurrence Remarks
+habitat,TRUE,FALSE,Habitat
+substrate,TRUE,FALSE,Substrate
+verbatimAttributes,TRUE,FALSE,Verbatim Attributes
+behavior,TRUE,FALSE,Behavior
+vitality,TRUE,FALSE,Vitality
+fieldNumber,TRUE,FALSE,Field Number
+eventID,FALSE,FALSE,Event ID
+informationWithheld,TRUE,FALSE,Information Withheld
+dataGeneralizations,TRUE,FALSE,Data Generalizations
+dynamicProperties,TRUE,FALSE,Dynamic Properties
+associatedSequences,TRUE,FALSE,Associated Sequences
+associatedTaxa,TRUE,FALSE,Associated Taxa
+reproductiveCondition,TRUE,FALSE,Reproductive Condition
+establishmentMeans,TRUE,FALSE,Establishment Means
+cultivationStatus,TRUE,FALSE,Cultivation Status
+lifeStage,TRUE,FALSE,Life Stage
+sex,TRUE,FALSE,Sex
+individualCount,TRUE,FALSE,Individual Count
+samplingProtocol,TRUE,FALSE,Sampling Protocol
+preparations,TRUE,FALSE,Preparations
+locationID,FALSE,FALSE,Location ID
+continent,TRUE,FALSE,Continent
+waterBody,TRUE,FALSE,Water Body
+islandGroup,TRUE,FALSE,Island Group
+island,TRUE,FALSE,Island
+country,TRUE,FALSE,Country
+countryCode,FALSE,FALSE,Country Code
+stateProvince,TRUE,FALSE,State/Province
+county,TRUE,FALSE,County
+municipality,TRUE,FALSE,Municipality
+locality,TRUE,FALSE,Locality
+locationRemarks,TRUE,FALSE,Location Remarks
+recordSecurity,TRUE,FALSE,Record Security
+securityReason,TRUE,FALSE,Security Reason
+decimalLatitude,TRUE,FALSE,Decimal Latitude
+decimalLongitude,TRUE,FALSE,Decimal Longitude
+geodeticDatum,TRUE,FALSE,Geodetic Datum
+coordinateUncertaintyInMeters,TRUE,FALSE,Coordinate Uncertainty (m)
+verbatimCoordinates,TRUE,FALSE,Verbatim Coordinates
+georeferencedBy,TRUE,FALSE,Georeferenced By
+georeferenceProtocol,TRUE,FALSE,Georeference Protocol
+georeferenceSources,TRUE,FALSE,Georeference Sources
+georeferenceVerificationStatus,TRUE,FALSE,Georeference Verification Status
+georeferenceRemarks,TRUE,FALSE,Georeference Remarks
+minimumElevationInMeters,TRUE,FALSE,Minimum Elevation (m)
+maximumElevationInMeters,TRUE,FALSE,Maximum Elevation (m)
+minimumDepthInMeters,TRUE,FALSE,Minimum Depth (m)
+maximumDepthInMeters,TRUE,FALSE,Maximum Depth (m)
+verbatimDepth,TRUE,FALSE,Verbatim Depth
+verbatimElevation,TRUE,FALSE,Verbatim Elevation
+disposition,TRUE,TRUE,Disposition
+language,FALSE,FALSE,Language
+storageLocation,TRUE,TRUE,Storage Location
+observerUid,FALSE,FALSE,Observer UID
+processingStatus,FALSE,FALSE,Processing Status
+duplicateQuantity,TRUE,FALSE,Duplicate Quantity
+labelProject,FALSE,FALSE,Label Project
+recordEnteredBy,FALSE,FALSE,Record Entered By
+dateEntered,FALSE,FALSE,Date Entered
+dateLastModified,FALSE,FALSE,Date Last Modified
+modified,FALSE,FALSE,Modified
+sourcePrimaryKey-dbpk,FALSE,FALSE,Source Primary Key
+recordID,FALSE,FALSE,Record ID
+references,FALSE,FALSE,References
