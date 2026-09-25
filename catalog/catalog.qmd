@@ -1,0 +1,64 @@
+---
+title: "MSUM Natural History Collections Catalog"
+format:
+  typst:
+    toc: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+
+source(here::here("scripts", "read-atlas-data.R"))
+source(here::here("scripts", "read-catalog-fields.R"))
+source(here::here("scripts", "validate-atlas-fields.R"))
+source(here::here("scripts", "prepare-catalog-record.R"))
+
+records <- read_atlas_backup()
+catalog_fields <- read_catalog_fields()
+
+validate_atlas_fields(records, catalog_fields)
+```
+
+```{r}
+#| label: test-record
+
+test_record <- records |>
+  dplyr::filter(catalogNumber == "MSUM000001")
+
+catalog_record <- prepare_catalog_record(
+  test_record,
+  catalog_fields
+)
+```
+
+## `r test_record$catalogNumber`
+
+**`r test_record$scientificName`**
+
+```{r}
+#| label: record-fields
+#| results: asis
+
+catalog_record |>
+  dplyr::filter(
+    !field %in% c("catalogNumber", "scientificName")
+  ) |>
+  dplyr::mutate(
+    value = dplyr::coalesce(value, ""),
+    line = paste0("**", label, ":** ", value, "\n\n")
+  ) |>
+  dplyr::pull(line) |>
+  cat()
+```
+
+**Notes / corrections:**
+
+____________________________________________________________________
+
+____________________________________________________________________
+
+____________________________________________________________________

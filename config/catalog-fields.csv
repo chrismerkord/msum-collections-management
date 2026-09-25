@@ -1,110 +1,110 @@
-field,display,display_when_empty,label
-id,FALSE,FALSE,id
-institutionCode,FALSE,FALSE,Institution Code
-collectionCode,FALSE,FALSE,Collection Code
-ownerInstitutionCode,FALSE,FALSE,Owner Institution Code
-basisOfRecord,TRUE,FALSE,Basis of Record
-occurrenceID,FALSE,FALSE,Occurrence ID
-catalogNumber,TRUE,TRUE,Catalog Number
-otherCatalogNumbers,TRUE,FALSE,Other Catalog Numbers
-higherClassification,FALSE,FALSE,Higher Classification
-kingdom,FALSE,FALSE,Kingdom
-phylum,FALSE,FALSE,Phylum
-class,FALSE,FALSE,Class
-order,FALSE,FALSE,Order
-family,FALSE,FALSE,Family
-scientificName,TRUE,TRUE,Scientific Name
-taxonID,FALSE,FALSE,Taxon ID
-scientificNameAuthorship,TRUE,FALSE,Scientific Name Authorship
-genus,FALSE,FALSE,Genus
-subgenus,FALSE,FALSE,Subgenus
-specificEpithet,FALSE,FALSE,Specific Epithet
-verbatimTaxonRank,FALSE,FALSE,Verbatim Taxon Rank
-infraspecificEpithet,FALSE,FALSE,Infraspecific Epithet
-cultivarEpithet,FALSE,FALSE,Cultivar Epithet
-tradeName,FALSE,FALSE,Trade Name
-taxonRank,TRUE,FALSE,Taxon Rank
-identifiedBy,TRUE,FALSE,Identified By
-dateIdentified,TRUE,FALSE,Date Identified
-identificationReferences,TRUE,FALSE,Identification References
-identificationRemarks,TRUE,FALSE,Identification Remarks
-taxonRemarks,TRUE,FALSE,Taxon Remarks
-identificationQualifier,TRUE,FALSE,Identification Qualifier
-typeStatus,TRUE,FALSE,Type Status
-recordedBy,TRUE,FALSE,Recorded By
-associatedCollectors,TRUE,FALSE,Associated Collectors
-recordNumber,TRUE,FALSE,Record Number
-eventDate,TRUE,FALSE,Event Date
-eventDate2,TRUE,FALSE,End Date
-eventtime,TRUE,FALSE,Event Time
-year,FALSE,FALSE,Year
-month,FALSE,FALSE,Month
-day,FALSE,FALSE,Day
-startDayOfYear,FALSE,FALSE,Start Day of Year
-endDayOfYear,FALSE,FALSE,End Day of Year
-verbatimEventDate,TRUE,FALSE,Verbatim Event Date
-occurrenceRemarks,TRUE,FALSE,Occurrence Remarks
-habitat,TRUE,FALSE,Habitat
-substrate,TRUE,FALSE,Substrate
-verbatimAttributes,TRUE,FALSE,Verbatim Attributes
-behavior,TRUE,FALSE,Behavior
-vitality,TRUE,FALSE,Vitality
-fieldNumber,TRUE,FALSE,Field Number
-eventID,FALSE,FALSE,Event ID
-informationWithheld,TRUE,FALSE,Information Withheld
-dataGeneralizations,TRUE,FALSE,Data Generalizations
-dynamicProperties,TRUE,FALSE,Dynamic Properties
-associatedSequences,TRUE,FALSE,Associated Sequences
-associatedTaxa,TRUE,FALSE,Associated Taxa
-reproductiveCondition,TRUE,FALSE,Reproductive Condition
-establishmentMeans,TRUE,FALSE,Establishment Means
-cultivationStatus,TRUE,FALSE,Cultivation Status
-lifeStage,TRUE,FALSE,Life Stage
-sex,TRUE,FALSE,Sex
-individualCount,TRUE,FALSE,Individual Count
-samplingProtocol,TRUE,FALSE,Sampling Protocol
-preparations,TRUE,FALSE,Preparations
-locationID,FALSE,FALSE,Location ID
-continent,TRUE,FALSE,Continent
-waterBody,TRUE,FALSE,Water Body
-islandGroup,TRUE,FALSE,Island Group
-island,TRUE,FALSE,Island
-country,TRUE,FALSE,Country
-countryCode,FALSE,FALSE,Country Code
-stateProvince,TRUE,FALSE,State/Province
-county,TRUE,FALSE,County
-municipality,TRUE,FALSE,Municipality
-locality,TRUE,FALSE,Locality
-locationRemarks,TRUE,FALSE,Location Remarks
-recordSecurity,TRUE,FALSE,Record Security
-securityReason,TRUE,FALSE,Security Reason
-decimalLatitude,TRUE,FALSE,Decimal Latitude
-decimalLongitude,TRUE,FALSE,Decimal Longitude
-geodeticDatum,TRUE,FALSE,Geodetic Datum
-coordinateUncertaintyInMeters,TRUE,FALSE,Coordinate Uncertainty (m)
-verbatimCoordinates,TRUE,FALSE,Verbatim Coordinates
-georeferencedBy,TRUE,FALSE,Georeferenced By
-georeferenceProtocol,TRUE,FALSE,Georeference Protocol
-georeferenceSources,TRUE,FALSE,Georeference Sources
-georeferenceVerificationStatus,TRUE,FALSE,Georeference Verification Status
-georeferenceRemarks,TRUE,FALSE,Georeference Remarks
-minimumElevationInMeters,TRUE,FALSE,Minimum Elevation (m)
-maximumElevationInMeters,TRUE,FALSE,Maximum Elevation (m)
-minimumDepthInMeters,TRUE,FALSE,Minimum Depth (m)
-maximumDepthInMeters,TRUE,FALSE,Maximum Depth (m)
-verbatimDepth,TRUE,FALSE,Verbatim Depth
-verbatimElevation,TRUE,FALSE,Verbatim Elevation
-disposition,TRUE,TRUE,Disposition
-language,FALSE,FALSE,Language
-storageLocation,TRUE,TRUE,Storage Location
-observerUid,FALSE,FALSE,Observer UID
-processingStatus,FALSE,FALSE,Processing Status
-duplicateQuantity,TRUE,FALSE,Duplicate Quantity
-labelProject,FALSE,FALSE,Label Project
-recordEnteredBy,FALSE,FALSE,Record Entered By
-dateEntered,FALSE,FALSE,Date Entered
-dateLastModified,FALSE,FALSE,Date Last Modified
-modified,FALSE,FALSE,Modified
-sourcePrimaryKey-dbpk,FALSE,FALSE,Source Primary Key
-recordID,FALSE,FALSE,Record ID
-references,FALSE,FALSE,References
+field,display,display_when_empty,label,order
+id,FALSE,FALSE,id,109
+institutionCode,FALSE,FALSE,Institution Code,94
+collectionCode,FALSE,FALSE,Collection Code,95
+ownerInstitutionCode,FALSE,FALSE,Owner Institution Code,96
+basisOfRecord,TRUE,FALSE,Basis of Record,10
+occurrenceID,FALSE,FALSE,Occurrence ID,105
+catalogNumber,TRUE,TRUE,Catalog Number,1
+otherCatalogNumbers,TRUE,FALSE,Other Catalog Numbers,9
+higherClassification,FALSE,FALSE,Higher Classification,24
+kingdom,FALSE,FALSE,Kingdom,12
+phylum,FALSE,FALSE,Phylum,13
+class,FALSE,FALSE,Class,14
+order,FALSE,FALSE,Order,15
+family,FALSE,FALSE,Family,16
+scientificName,TRUE,TRUE,Scientific Name,2
+taxonID,FALSE,FALSE,Taxon ID,25
+scientificNameAuthorship,TRUE,FALSE,Scientific Name Authorship,3
+genus,FALSE,FALSE,Genus,17
+subgenus,FALSE,FALSE,Subgenus,18
+specificEpithet,FALSE,FALSE,Specific Epithet,19
+verbatimTaxonRank,FALSE,FALSE,Verbatim Taxon Rank,23
+infraspecificEpithet,FALSE,FALSE,Infraspecific Epithet,20
+cultivarEpithet,FALSE,FALSE,Cultivar Epithet,21
+tradeName,FALSE,FALSE,Trade Name,22
+taxonRank,TRUE,FALSE,Taxon Rank,4
+identifiedBy,TRUE,FALSE,Identified By,26
+dateIdentified,TRUE,FALSE,Date Identified,27
+identificationReferences,TRUE,FALSE,Identification References,29
+identificationRemarks,TRUE,FALSE,Identification Remarks,30
+taxonRemarks,TRUE,FALSE,Taxon Remarks,31
+identificationQualifier,TRUE,FALSE,Identification Qualifier,28
+typeStatus,TRUE,FALSE,Type Status,5
+recordedBy,TRUE,FALSE,Recorded By,32
+associatedCollectors,TRUE,FALSE,Associated Collectors,33
+recordNumber,TRUE,FALSE,Record Number,34
+eventDate,TRUE,FALSE,Event Date,36
+eventDate2,TRUE,FALSE,End Date,37
+eventtime,TRUE,FALSE,Event Time,38
+year,FALSE,FALSE,Year,40
+month,FALSE,FALSE,Month,41
+day,FALSE,FALSE,Day,42
+startDayOfYear,FALSE,FALSE,Start Day of Year,43
+endDayOfYear,FALSE,FALSE,End Day of Year,44
+verbatimEventDate,TRUE,FALSE,Verbatim Event Date,39
+occurrenceRemarks,TRUE,FALSE,Occurrence Remarks,60
+habitat,TRUE,FALSE,Habitat,53
+substrate,TRUE,FALSE,Substrate,54
+verbatimAttributes,TRUE,FALSE,Verbatim Attributes,59
+behavior,TRUE,FALSE,Behavior,51
+vitality,TRUE,FALSE,Vitality,52
+fieldNumber,TRUE,FALSE,Field Number,35
+eventID,FALSE,FALSE,Event ID,46
+informationWithheld,TRUE,FALSE,Information Withheld,90
+dataGeneralizations,TRUE,FALSE,Data Generalizations,91
+dynamicProperties,TRUE,FALSE,Dynamic Properties,61
+associatedSequences,TRUE,FALSE,Associated Sequences,56
+associatedTaxa,TRUE,FALSE,Associated Taxa,55
+reproductiveCondition,TRUE,FALSE,Reproductive Condition,49
+establishmentMeans,TRUE,FALSE,Establishment Means,57
+cultivationStatus,TRUE,FALSE,Cultivation Status,58
+lifeStage,TRUE,FALSE,Life Stage,48
+sex,TRUE,FALSE,Sex,47
+individualCount,TRUE,FALSE,Individual Count,50
+samplingProtocol,TRUE,FALSE,Sampling Protocol,45
+preparations,TRUE,FALSE,Preparations,8
+locationID,FALSE,FALSE,Location ID,73
+continent,TRUE,FALSE,Continent,62
+waterBody,TRUE,FALSE,Water Body,68
+islandGroup,TRUE,FALSE,Island Group,69
+island,TRUE,FALSE,Island,70
+country,TRUE,FALSE,Country,63
+countryCode,FALSE,FALSE,Country Code,64
+stateProvince,TRUE,FALSE,State/Province,65
+county,TRUE,FALSE,County,66
+municipality,TRUE,FALSE,Municipality,67
+locality,TRUE,FALSE,Locality,71
+locationRemarks,TRUE,FALSE,Location Remarks,72
+recordSecurity,TRUE,FALSE,Record Security,92
+securityReason,TRUE,FALSE,Security Reason,93
+decimalLatitude,TRUE,FALSE,Decimal Latitude,74
+decimalLongitude,TRUE,FALSE,Decimal Longitude,75
+geodeticDatum,TRUE,FALSE,Geodetic Datum,77
+coordinateUncertaintyInMeters,TRUE,FALSE,Coordinate Uncertainty (m),78
+verbatimCoordinates,TRUE,FALSE,Verbatim Coordinates,76
+georeferencedBy,TRUE,FALSE,Georeferenced By,79
+georeferenceProtocol,TRUE,FALSE,Georeference Protocol,80
+georeferenceSources,TRUE,FALSE,Georeference Sources,81
+georeferenceVerificationStatus,TRUE,FALSE,Georeference Verification Status,82
+georeferenceRemarks,TRUE,FALSE,Georeference Remarks,83
+minimumElevationInMeters,TRUE,FALSE,Minimum Elevation (m),84
+maximumElevationInMeters,TRUE,FALSE,Maximum Elevation (m),85
+minimumDepthInMeters,TRUE,FALSE,Minimum Depth (m),87
+maximumDepthInMeters,TRUE,FALSE,Maximum Depth (m),88
+verbatimDepth,TRUE,FALSE,Verbatim Depth,89
+verbatimElevation,TRUE,FALSE,Verbatim Elevation,86
+disposition,TRUE,TRUE,Disposition,7
+language,FALSE,FALSE,Language,97
+storageLocation,TRUE,TRUE,Storage Location,6
+observerUid,FALSE,FALSE,Observer UID,100
+processingStatus,FALSE,FALSE,Processing Status,98
+duplicateQuantity,TRUE,FALSE,Duplicate Quantity,11
+labelProject,FALSE,FALSE,Label Project,99
+recordEnteredBy,FALSE,FALSE,Record Entered By,101
+dateEntered,FALSE,FALSE,Date Entered,102
+dateLastModified,FALSE,FALSE,Date Last Modified,103
+modified,FALSE,FALSE,Modified,104
+sourcePrimaryKey-dbpk,FALSE,FALSE,Source Primary Key,107
+recordID,FALSE,FALSE,Record ID,106
+references,FALSE,FALSE,References,108
